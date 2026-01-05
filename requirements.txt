@@ -6,4 +6,5 @@ shap
 matplotlib
 torch
 torchdiffeq
+xgboost
 plotly
