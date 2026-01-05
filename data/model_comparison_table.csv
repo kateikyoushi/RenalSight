@@ -1,0 +1,12 @@
+Metric,Baseline XGBoost,Neuro-Symbolic
+Test Accuracy,0.9406,0.9307
+Balanced Accuracy,0.8700,0.8658
+Macro Precision,0.9543,0.9439
+Macro Recall,0.8700,0.8658
+Macro F1-Score,0.8953,0.8875
+Cohen's Kappa,0.9078,0.8930
+Methodology,Train+Val → Test,Train+Val → Test
+Data Split,60/20/20,60/20/20
+Class Balancing,SMOTE-ENC,SMOTE-ENC
+Rule Application,None,Soft Guidance (0.3)
+Accuracy Impact,N/A,-0.99%

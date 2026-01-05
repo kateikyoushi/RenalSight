@@ -1,0 +1,36 @@
+{
+  "model_version": "2.0_methodologically_sound",
+  "training_date": "2025-12-25 22:12:52",
+  "data_split": "60/20/20 (train/val/test)",
+  "train_samples": 301,
+  "val_samples": 101,
+  "test_samples": 101,
+  "resampled_train": 710,
+  "features_used": 11,
+  "features_excluded": [
+    "eGFR (circular reasoning)"
+  ],
+  "baseline_accuracy": 0.9405940594059405,
+  "baseline_balanced_accuracy": 0.8699999999999999,
+  "neurosymbolic_accuracy": 0.9306930693069307,
+  "neurosymbolic_balanced_accuracy": 0.8658333333333333,
+  "cohens_kappa": 0.8929760823493793,
+  "best_hyperparameters": {
+    "n_estimators": 221,
+    "max_depth": 4,
+    "learning_rate": 0.06683702677923349,
+    "subsample": 0.9892845848958564,
+    "colsample_bytree": 0.9093098681956329,
+    "min_child_weight": 2,
+    "gamma": 0.17119119803767777,
+    "objective": "multi:softmax",
+    "num_class": 5,
+    "eval_metric": "mlogloss",
+    "random_state": 42
+  },
+  "smote_applied": true,
+  "soft_guidance": true,
+  "rule_weight": 0.3,
+  "cv_folds": 5,
+  "methodology": "Proper train/val/test with no contamination"
+}
